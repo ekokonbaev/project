@@ -14,7 +14,8 @@ LOG = logging.getLogger("uvicorn.error")
 logging.basicConfig(level=logging.INFO)
 
 OPENROUTER_API_KEY = "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"
-SECRET_KEY = "replace_with_secret_key"
+SECRET_KEY = "8f1a7cd89f6a2b34eac9e1a40f6f11b8a7d239f1a6b6e8ce8b8a87ffb5ce12cd"
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
